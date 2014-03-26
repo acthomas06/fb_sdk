@@ -2,15 +2,15 @@
 ========================
 ##What is the Facebook SDK?
 ===========================
--SDK stands for "Software Development Kit"
--Allows insertion of Facebook Plugins
+- SDK stands for "Software Development Kit"
+- Allows insertion of Facebook Plugins
     *"Like" button
     *"Share" button
     *"Comment" box
     *"Activity" feed
 
 ##Basic Setup
-*Place the following code before the `<body>` tag of each page.
+* Place the following code before the `<body>` tag of each page.
 ```
 <div id="fb-root"></div>
     <script>
@@ -34,17 +34,17 @@
 
 ###Set Up An App
 ================
-*Visit the App Dashboard [here](https://developers.facebook.com/apps "App Dashboard")
+* Visit the App Dashboard [here](https://developers.facebook.com/apps "App Dashboard")
 
 ##Add a Like button
 ===================
--To add a like button anywhere on your page, insert the following line of HTML:
+- To add a like button anywhere on your page, insert the following line of HTML:
 
 `<div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>`
 
 ##Add a Feed dialog
 
--After your FB.init() you added earlier, add the following code snippet:
+- After your FB.init() you added earlier, add the following code snippet:
 
 ```
 FB.ui({
