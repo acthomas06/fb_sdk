@@ -1,7 +1,6 @@
 #README for Facebook SDK
-===================
 ##What is the Facebook SDK?
-===================
+
 - SDK stands for "Software Development Kit"
 - Allows insertion of Facebook Plugins
     *"Like" button
@@ -10,6 +9,7 @@
     *"Activity" feed
 
 ##Basic Setup
+
 * Place the following code before the `<body>` tag of each page.
 ```
 <div id="fb-root"></div>
@@ -33,6 +33,7 @@
 ```
 
 ##Set Up An App
+
 * Visit the App Dashboard [here](https://developers.facebook.com/apps "App Dashboard")
 * Fill in your App Display Name and a namespace (optional)
 
