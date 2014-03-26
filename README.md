@@ -2,8 +2,8 @@
 ========================
 ##What is the Facebook SDK?
 ===========================
-*SDK stands for "Software Development Kit"
-*Allows insertion of Facebook Plugins
+⋅⋅*SDK stands for "Software Development Kit"
+⋅⋅*Allows insertion of Facebook Plugins
     *"Like" button
     *"Share" button
     *"Comment" box
