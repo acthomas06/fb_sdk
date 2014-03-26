@@ -56,6 +56,20 @@ FB.ui({
 }, function(response){});
 ```
 
+- Now when you reload your page you will see a feed dialog appear over the top of your page.
+
+####I GOT AN ERROR!
+
+- You may receive an error saying "the given URL is not allowed by the Application configuration".  There are several ways to fix this, most of which are complex.
+
+- Click on the Settings tab of your Application page @ developers.facbeook.com/apps/
+
+- You are required to include your Application Domain (URL), as well as choose a platform for it.
+
+- Choose `+Add Platform` and select `Website`.  You will then be prompted to include your Site URL.  This will be the same as the App Domain.
+
+- Unfortunately testing locally is a pain.  If you input `localhost` into the Domain it will give an error.
+
 ##Facebook Login
 
 - After you have initialized the FaceBook SDK, you will need to implement some authentication code within your fbAsyncInit function but after your FB.init():
@@ -100,5 +114,4 @@ function testAPI() {
 - Finally, we will implement a `Login` button with one simple line of code:
 
 `<fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button>`
-
 
