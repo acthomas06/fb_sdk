@@ -46,7 +46,7 @@
 
 ##Add a Feed dialog
 
-- After your FB.init() you added earlier, add the following code snippet:
+- After your `FB.init()` you added earlier, add the following code snippet:
 
 ```
 FB.ui({
@@ -64,7 +64,7 @@ FB.ui({
 
 - You may receive an error saying "the given URL is not allowed by the Application configuration".  There are several ways to fix this, most of which are complex.
 
-- Click on the Settings tab of your Application page @ developers.facbeook.com/apps/
+- Click on the Settings tab of your Application page @ [developers.facebook.com/apps/](http://developers.facebook.com/apps/)
 
 - You are required to include your Application Domain (URL), as well as choose a platform for it.
 
