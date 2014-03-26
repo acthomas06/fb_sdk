@@ -36,8 +36,10 @@
 
 * Visit the App Dashboard [here](https://developers.facebook.com/apps "App Dashboard")
 * Fill in your App Display Name and a namespace (optional)
+* Once you have chosen a Name and namespace, click on your `Settings` tab and note the Application ID provided. This ID must be added to the `FB.init()` function.
 
 ##Add a Like button
+
 - To add a like button anywhere on your page, insert the following line of HTML:
 
 `<div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>`
@@ -115,3 +117,8 @@ function testAPI() {
 
 `<fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button>`
 
+###Congratulations!
+
+You should now have some basic Facebook elements included in your Application page!
+
+To learn more in-depth details about the Facebook SDK visit [the Facebook Developers' documentation page](https://developers.facebook.com/docs/javascript/)
