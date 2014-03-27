@@ -72,6 +72,14 @@ FB.ui({
 
 - Unfortunately testing locally is a pain.  If you input `localhost` into the Domain it will give an error.
 
+####I GOT A SOLUTION
+
+- Go to your hosts file located at `/etc/hosts`.
+- Use `sudo nano hosts` to open and edit your hosts file.
+- For testing purposes, we will replace the `localhost` listed next to `127.0.0.1` with a URL of your choosing.  Example: `my.facebook.app`
+- Hit `CTRL + O` to save, and then `CTRL + X` to quit.
+- Now go to your Applications >> Settings and for the Domain and Site URL put the address you inserted into your hosts file.
+
 ##Facebook Login
 
 - After you have initialized the FaceBook SDK, you will need to implement some authentication code within your fbAsyncInit function but after your FB.init():
